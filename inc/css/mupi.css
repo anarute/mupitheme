@@ -4664,6 +4664,7 @@ input[type="submit"].btn.btn-mini {
   overflow: hidden;
   width: 100%;
   position: relative;
+  height: 300px;
 }
 .carousel-inner > .item {
   display: none;
