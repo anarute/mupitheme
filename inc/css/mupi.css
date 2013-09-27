@@ -5282,8 +5282,8 @@ h2.comments-title:before {
 .tc-header {
   min-height: 45px;
   background: white;
-  border-bottom: 10px solid #e9eaee;
-  border-top: 5px solid #f78c40;
+  border-bottom: 5px solid #e9eaee;
+  border-top: 2px solid #f78c40;
   z-index: 200;
 }
 /* LOGO / TITLE
@@ -5379,7 +5379,8 @@ h2.site-description {
 
 .navbar .nav > li > a {
   padding: 5px 20px 5px 20px;
-  font-size: 16px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .navbar .nav > li > a:first-letter {
   font-size: 17px;
@@ -5622,11 +5623,11 @@ footer#footer .colophon .social-block a {
 .carousel-caption {
   background-color: transparent\9;
   /* IE8 and below */
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(256, 256, 256, 0.5);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33000000', endColorstr='#33000000', GradientType=0);
   /* IE6-9 */
   max-width: 60%;
-  padding: 5%;
+  padding: 10px;
   line-height: 14px;
   vertical-align: middle;
   *top: 25%;
@@ -5641,8 +5642,9 @@ footer#footer .colophon .social-block a {
 .carousel-caption .lead {
   margin: 0;
   line-height: 1.25;
-  color: white;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  color: #444;
+  font-size: 1.3em;
+  text-shadow: 0;
 }
 .carousel-caption .btn {
   margin-top: 10px;
